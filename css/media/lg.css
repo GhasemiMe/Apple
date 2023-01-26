@@ -1,0 +1,828 @@
+@media screen and (min-width: 833px) and (max-width: 1210px) {
+  * {
+    margin: 0;
+    padding: 0; }
+  div.MenuContainer {
+    width: 100%;
+    height: 44px;
+    display: flex;
+    margin: 0 auto; }
+    div.MenuContainer > div.menu {
+      width: 100%;
+      height: 44px;
+      display: flex;
+      background-color: black;
+      opacity: 0.8;
+      position: fixed; }
+      div.MenuContainer > div.menu > div.optionsContainer {
+        width: 68%;
+        margin: 0 -5.5%;
+        height: 100%;
+        padding: 0 5%;
+        display: flex;
+        flex-direction: row;
+        column-gap: 2.4%; }
+        div.MenuContainer > div.menu > div.optionsContainer > div.optionsTest {
+          display: none; }
+        div.MenuContainer > div.menu > div.optionsContainer > div.options:nth-of-type(2) {
+          height: 100%;
+          display: inline-flex;
+          padding: 0 8px;
+          color: rgba(255, 255, 255, 0.653);
+          font-size: 18px;
+          transition: 300ms;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer; }
+          div.MenuContainer > div.menu > div.optionsContainer > div.options:nth-of-type(2):hover {
+            color: white;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms; }
+        div.MenuContainer > div.menu > div.optionsContainer > div.options:nth-of-type(3) {
+          height: 100%;
+          display: inline-flex;
+          padding: 0 8px;
+          color: rgba(255, 255, 255, 0.653);
+          line-height: 44px;
+          font-size: 12px;
+          font-family: sans-serif;
+          transition: 300ms;
+          cursor: pointer; }
+          div.MenuContainer > div.menu > div.optionsContainer > div.options:nth-of-type(3):hover {
+            color: white;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms; }
+        div.MenuContainer > div.menu > div.optionsContainer > div.options:nth-of-type(4) {
+          height: 100%;
+          display: inline-flex;
+          padding: 0 8px;
+          color: rgba(255, 255, 255, 0.653);
+          line-height: 44px;
+          font-size: 12px;
+          font-family: sans-serif;
+          transition: 300ms;
+          cursor: pointer; }
+          div.MenuContainer > div.menu > div.optionsContainer > div.options:nth-of-type(4):hover {
+            color: white;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms; }
+        div.MenuContainer > div.menu > div.optionsContainer > div.options:nth-of-type(5) {
+          height: 100%;
+          display: inline-flex;
+          padding: 0 8px;
+          color: rgba(255, 255, 255, 0.653);
+          line-height: 44px;
+          font-size: 12px;
+          font-family: sans-serif;
+          transition: 300ms;
+          cursor: pointer; }
+          div.MenuContainer > div.menu > div.optionsContainer > div.options:nth-of-type(5):hover {
+            color: white;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms; }
+        div.MenuContainer > div.menu > div.optionsContainer > div.options:nth-of-type(6) {
+          height: 100%;
+          display: inline-flex;
+          padding: 0 8px;
+          color: rgba(255, 255, 255, 0.653);
+          line-height: 44px;
+          font-size: 12px;
+          font-family: sans-serif;
+          transition: 300ms;
+          cursor: pointer; }
+          div.MenuContainer > div.menu > div.optionsContainer > div.options:nth-of-type(6):hover {
+            color: white;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms; }
+        div.MenuContainer > div.menu > div.optionsContainer > div.options:nth-of-type(7) {
+          height: 100%;
+          display: inline-flex;
+          padding: 0 8px;
+          color: rgba(255, 255, 255, 0.653);
+          line-height: 44px;
+          font-size: 12px;
+          font-family: sans-serif;
+          transition: 300ms;
+          cursor: pointer; }
+          div.MenuContainer > div.menu > div.optionsContainer > div.options:nth-of-type(7):hover {
+            color: white;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms; }
+        div.MenuContainer > div.menu > div.optionsContainer > div.options:nth-of-type(8) {
+          height: 100%;
+          display: inline-flex;
+          padding: 0 8px;
+          color: rgba(255, 255, 255, 0.653);
+          line-height: 44px;
+          font-size: 12px;
+          font-family: sans-serif;
+          transition: 300ms;
+          cursor: pointer; }
+          div.MenuContainer > div.menu > div.optionsContainer > div.options:nth-of-type(8):hover {
+            color: white;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms; }
+        div.MenuContainer > div.menu > div.optionsContainer > div.options:nth-of-type(9) {
+          width: 76px;
+          height: 100%;
+          display: inline-flex;
+          padding: 0 8px;
+          color: rgba(255, 255, 255, 0.653);
+          line-height: 44px;
+          font-size: 12px;
+          font-family: sans-serif;
+          transition: 300ms;
+          cursor: pointer; }
+          div.MenuContainer > div.menu > div.optionsContainer > div.options:nth-of-type(9):hover {
+            color: white;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms; }
+        div.MenuContainer > div.menu > div.optionsContainer > div.options:nth-of-type(10) {
+          width: 90px;
+          height: 100%;
+          display: inline-flex;
+          padding: 0 8px;
+          color: rgba(255, 255, 255, 0.653);
+          line-height: 44px;
+          font-size: 12px;
+          font-family: sans-serif;
+          transition: 300ms;
+          cursor: pointer; }
+          div.MenuContainer > div.menu > div.optionsContainer > div.options:nth-of-type(10):hover {
+            color: white;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms; }
+        div.MenuContainer > div.menu > div.optionsContainer > div.options:nth-of-type(11) {
+          height: 100%;
+          display: inline-flex;
+          padding: 0 8px;
+          color: rgba(255, 255, 255, 0.653);
+          line-height: 44px;
+          font-size: 12px;
+          font-family: sans-serif;
+          transition: 300ms;
+          cursor: pointer; }
+          div.MenuContainer > div.menu > div.optionsContainer > div.options:nth-of-type(11):hover {
+            color: white;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms; }
+        div.MenuContainer > div.menu > div.optionsContainer > div.options:nth-of-type(12) {
+          height: 100%;
+          display: inline-flex;
+          padding: 0 8px;
+          color: rgba(255, 255, 255, 0.653);
+          line-height: 44px;
+          font-size: 12px;
+          font-family: sans-serif;
+          transition: 300ms;
+          cursor: pointer; }
+          div.MenuContainer > div.menu > div.optionsContainer > div.options:nth-of-type(12):hover {
+            color: white;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms; }
+        div.MenuContainer > div.menu > div.optionsContainer > div.options:nth-of-type(13) {
+          height: 100%;
+          display: inline-flex;
+          padding: 0 8px;
+          color: rgba(255, 255, 255, 0.653);
+          line-height: 44px;
+          font-size: 12px;
+          font-family: sans-serif;
+          transition: 300ms;
+          cursor: pointer;
+          justify-content: center;
+          align-items: center; }
+          div.MenuContainer > div.menu > div.optionsContainer > div.options:nth-of-type(13):hover {
+            color: white;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms; }
+        div.MenuContainer > div.menu > div.optionsContainer > div.options:nth-of-type(14) {
+          height: 100%;
+          display: inline-flex;
+          padding: 0 8px;
+          color: rgba(255, 255, 255, 0.653);
+          line-height: 44px;
+          font-size: 15px;
+          transition: 300ms;
+          cursor: pointer;
+          justify-content: center;
+          align-items: center; }
+          div.MenuContainer > div.menu > div.optionsContainer > div.options:nth-of-type(14):hover {
+            color: white;
+            transition: 300ms;
+            -webkit-transition: 300ms;
+            -moz-transition: 300ms;
+            -ms-transition: 300ms;
+            -o-transition: 300ms; }
+  div.Banner {
+    width: 100%;
+    height: 540px !important;
+    display: flex;
+    padding-top: 60px;
+    flex-direction: column;
+    row-gap: 12px;
+    cursor: pointer; }
+    div.Banner > h1 {
+      color: rgba(0, 0, 0, 0.85);
+      font-family: sans-serif;
+      font-size: 55px  !important;
+      margin: 0 auto;
+      display: flex; }
+    div.Banner > h4 {
+      color: rgba(0, 0, 0, 0.85);
+      font-family: sans-serif;
+      font-size: 28px  !important;
+      font-weight: lighter;
+      margin: 0 auto;
+      display: flex; }
+    div.Banner > div.info {
+      height: 30px;
+      width: 230px !important;
+      display: flex;
+      flex-direction: row;
+      margin: 0 auto; }
+      div.Banner > div.info div.textCon:nth-of-type(1) > h4 {
+        color: #06c;
+        width: 200px;
+        font-family: sans-serif;
+        display: flex;
+        font-size: 20px  !important;
+        font-weight: lighter;
+        transition: 200ms; }
+        div.Banner > div.info div.textCon:nth-of-type(1) > h4:hover {
+          text-decoration: underline;
+          transition: 200ms; }
+      div.Banner > div.info div.textCon:nth-of-type(2) > h4 {
+        color: #06c;
+        width: 200px;
+        font-family: sans-serif;
+        display: flex;
+        font-size: 20px  !important;
+        font-weight: lighter;
+        transition: 200ms; }
+        div.Banner > div.info div.textCon:nth-of-type(2) > h4:hover {
+          text-decoration: underline;
+          transition: 200ms; }
+  div.memoji {
+    width: 100%;
+    height: 590px !important;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    cursor: pointer;
+    background-size: auto !important; }
+    div.memoji > div.wow {
+      display: flex;
+      height: 100%;
+      flex-direction: column; }
+      div.memoji > div.wow > h1:nth-of-type(1) {
+        color: white;
+        font-family: sans-serif;
+        font-size: 55px !important;
+        margin: 0 auto;
+        display: flex;
+        height: 1300px;
+        align-items: flex-end; }
+      div.memoji > div.wow > h1:nth-of-type(2) {
+        color: white;
+        font-family: sans-serif;
+        font-size: 28px !important;
+        font-weight: lighter;
+        width: 380px !important;
+        margin: 0 auto;
+        display: flex;
+        height: 110px;
+        align-items: flex-start;
+        margin-top: 8px; }
+      div.memoji > div.wow > h1:nth-of-type(3) {
+        color: #06c;
+        font-family: sans-serif;
+        font-size: 20px !important;
+        font-weight: lighter;
+        width: 280px !important;
+        margin: 0 auto;
+        display: flex;
+        height: 140px;
+        align-items: flex-start;
+        margin-top: 12px;
+        transition: 200ms; }
+        div.memoji > div.wow > h1:nth-of-type(3):hover {
+          text-decoration: underline;
+          transition: 200ms; }
+  div.card {
+    width: 100%;
+    height: 540px !important;
+    display: flex;
+    padding-top: 60px;
+    flex-direction: column;
+    margin-top: 12px;
+    cursor: pointer;
+    background-size: auto !important; }
+    div.card > h1:nth-of-type(1) {
+      color: white;
+      font-family: sans-serif;
+      font-size: 55px !important;
+      margin: 0 auto;
+      display: flex; }
+    div.card > h1:nth-of-type(2) {
+      color: white;
+      font-family: sans-serif;
+      font-size: 25px !important;
+      font-weight: lighter;
+      width: 445px !important;
+      margin: 0 auto;
+      display: flex; }
+    div.card > h1:nth-of-type(3) {
+      color: white;
+      font-family: sans-serif;
+      font-size: 19px !important;
+      font-weight: lighter;
+      width: 445px !important;
+      margin: 0 auto;
+      display: flex;
+      margin-top: 15px; }
+    div.card > div.info {
+      height: 30px;
+      width: 250px !important;
+      display: flex;
+      flex-direction: row;
+      margin: 0 auto;
+      margin-top: 12px; }
+      div.card > div.info div.textCon:nth-of-type(1) > h4 {
+        color: #06c;
+        width: 200px !important;
+        font-family: sans-serif;
+        display: flex;
+        font-size: 20px !important;
+        font-weight: lighter;
+        transition: 200ms; }
+        div.card > div.info div.textCon:nth-of-type(1) > h4:hover {
+          text-decoration: underline;
+          transition: 200ms; }
+      div.card > div.info div.textCon:nth-of-type(2) > h4 {
+        color: #06c;
+        width: 200px !important;
+        font-family: sans-serif;
+        display: flex;
+        font-size: 20px !important;
+        font-weight: lighter;
+        transition: 200ms; }
+        div.card > div.info div.textCon:nth-of-type(2) > h4:hover {
+          text-decoration: underline;
+          transition: 200ms; }
+  div.TwoContainerr {
+    display: flex;
+    flex-direction: row  !important;
+    height: 590px  !important;
+    width: 98%  !important;
+    margin: 0 auto; }
+    div.TwoContainerr > div.Inner:nth-of-type(1) {
+      height: 100%  !important;
+      width: 781px  !important;
+      color: white;
+      font-family: sans-serif;
+      font-size: 20px  !important;
+      font-weight: bolder;
+      margin-right: 1%;
+      margin-top: 0 !important;
+      background-size: auto !important; }
+      div.TwoContainerr > div.Inner:nth-of-type(1) > div.textIn {
+        margin: 0 auto;
+        width: 40%  !important;
+        height: 70px; }
+        div.TwoContainerr > div.Inner:nth-of-type(1) > div.textIn > h1 {
+          margin-top: 80px  !important;
+          width: 300px  !important;
+          margin-left: -30px; }
+        div.TwoContainerr > div.Inner:nth-of-type(1) > div.textIn > h2 {
+          font-size: 19px;
+          font-weight: lighter;
+          margin-top: 5px;
+          margin-left: 22%; }
+      div.TwoContainerr > div.Inner:nth-of-type(1) > div.info {
+        height: 30px;
+        width: 38%;
+        display: flex;
+        flex-direction: row;
+        margin: 10px auto  !important; }
+        div.TwoContainerr > div.Inner:nth-of-type(1) > div.info div.textCon:nth-of-type(1) > h4 {
+          color: #06c;
+          width: 180px  !important;
+          font-family: sans-serif;
+          display: flex;
+          font-size: 18px  !important;
+          font-weight: lighter;
+          transition: 200ms; }
+          div.TwoContainerr > div.Inner:nth-of-type(1) > div.info div.textCon:nth-of-type(1) > h4:hover {
+            text-decoration: underline;
+            transition: 200ms; }
+        div.TwoContainerr > div.Inner:nth-of-type(1) > div.info div.textCon:nth-of-type(2) > h4 {
+          color: #06c;
+          width: 180px  !important;
+          font-family: sans-serif;
+          display: flex;
+          font-size: 18px  !important;
+          font-weight: lighter;
+          transition: 200ms;
+          cursor: pointer; }
+          div.TwoContainerr > div.Inner:nth-of-type(1) > div.info div.textCon:nth-of-type(2) > h4:hover {
+            text-decoration: underline;
+            transition: 200ms; }
+    div.TwoContainerr > div.Inner:nth-of-type(2) {
+      height: 100%  !important;
+      width: 781px  !important;
+      color: black  !important;
+      font-family: sans-serif;
+      font-size: 22px  !important;
+      font-weight: bolder;
+      cursor: pointer;
+      background-size: auto !important; }
+      div.TwoContainerr > div.Inner:nth-of-type(2) > div.textIn {
+        margin: 0 auto;
+        width: 10%;
+        height: 70px; }
+        div.TwoContainerr > div.Inner:nth-of-type(2) > div.textIn > h1 {
+          margin-top: 80px !important; }
+        div.TwoContainerr > div.Inner:nth-of-type(2) > div.textIn > h2 {
+          font-size: 19px;
+          font-weight: lighter;
+          margin-top: 5px !important;
+          color: black;
+          width: 170px !important;
+          margin-left: -25% !important; }
+      div.TwoContainerr > div.Inner:nth-of-type(2) > div.info {
+        height: 30px;
+        width: 30% !important;
+        display: flex;
+        flex-direction: row;
+        margin: 10px auto; }
+        div.TwoContainerr > div.Inner:nth-of-type(2) > div.info div.textCon:nth-of-type(1) > h4 {
+          color: #06c;
+          width: 180px !important;
+          font-family: sans-serif;
+          display: flex;
+          font-size: 18px !important;
+          font-weight: lighter;
+          transition: 200ms; }
+          div.TwoContainerr > div.Inner:nth-of-type(2) > div.info div.textCon:nth-of-type(1) > h4:hover {
+            text-decoration: underline;
+            transition: 200ms; }
+        div.TwoContainerr > div.Inner:nth-of-type(2) > div.info div.textCon:nth-of-type(2) > h4 {
+          color: #06c;
+          width: 80px;
+          font-family: sans-serif;
+          display: flex;
+          font-size: 18px !important;
+          font-weight: lighter;
+          transition: 200ms; }
+          div.TwoContainerr > div.Inner:nth-of-type(2) > div.info div.textCon:nth-of-type(2) > h4:hover {
+            text-decoration: underline;
+            transition: 200ms; }
+  div.TwoContainer {
+    display: flex;
+    flex-direction: row !important;
+    height: 590px !important;
+    width: 98% !important;
+    margin: 0 auto; }
+    div.TwoContainer > div.Inner:nth-of-type(1) {
+      height: 100% !important;
+      width: 50% !important;
+      color: black;
+      font-family: sans-serif;
+      font-size: 20px !important;
+      font-weight: bolder;
+      margin-right: 1%;
+      cursor: pointer; }
+      div.TwoContainer > div.Inner:nth-of-type(1) > div.textIn {
+        margin: 0 auto;
+        width: 40%;
+        height: 70px; }
+        div.TwoContainer > div.Inner:nth-of-type(1) > div.textIn > h1 {
+          margin-top: 80px !important;
+          width: 300px;
+          margin-left: -10%; }
+        div.TwoContainer > div.Inner:nth-of-type(1) > div.textIn > h2 {
+          font-size: 19px;
+          font-weight: lighter;
+          margin-top: 5px;
+          margin-left: 22%;
+          color: black;
+          margin-left: -5%;
+          width: 220px; }
+      div.TwoContainer > div.Inner:nth-of-type(1) > div.info {
+        height: 30px;
+        width: 38%;
+        display: flex;
+        flex-direction: row;
+        margin: 10px auto; }
+        div.TwoContainer > div.Inner:nth-of-type(1) > div.info div.textCon:nth-of-type(1) > h4 {
+          color: #06c;
+          width: 180px;
+          font-family: sans-serif;
+          display: flex;
+          font-size: 18px !important;
+          font-weight: lighter;
+          transition: 200ms; }
+          div.TwoContainer > div.Inner:nth-of-type(1) > div.info div.textCon:nth-of-type(1) > h4:hover {
+            text-decoration: underline;
+            transition: 200ms; }
+        div.TwoContainer > div.Inner:nth-of-type(1) > div.info div.textCon:nth-of-type(2) > h4 {
+          color: #06c;
+          width: 80px;
+          font-family: sans-serif;
+          display: flex;
+          font-size: 18px !important;
+          font-weight: lighter;
+          transition: 200ms;
+          cursor: pointer; }
+          div.TwoContainer > div.Inner:nth-of-type(1) > div.info div.textCon:nth-of-type(2) > h4:hover {
+            text-decoration: underline;
+            transition: 200ms; }
+    div.TwoContainer > div.Inner:nth-of-type(2) {
+      height: 100% !important;
+      width: 50% !important;
+      color: white;
+      font-family: sans-serif;
+      font-size: 16px;
+      font-weight: bolder;
+      cursor: pointer; }
+      div.TwoContainer > div.Inner:nth-of-type(2) > div.textIn {
+        margin: 0 auto;
+        width: 25%;
+        height: 70px; }
+        div.TwoContainer > div.Inner:nth-of-type(2) > div.textIn > h1 {
+          margin-top: 80px !important;
+          width: 180px;
+          color: white; }
+        div.TwoContainer > div.Inner:nth-of-type(2) > div.textIn > h6 {
+          color: #9a0d0d;
+          font-size: 13px;
+          font-weight: lighter;
+          margin-left: 35%; }
+        div.TwoContainer > div.Inner:nth-of-type(2) > div.textIn > h2 {
+          font-size: 19px;
+          font-weight: lighter;
+          margin-top: 5px;
+          color: white;
+          width: 200px; }
+      div.TwoContainer > div.Inner:nth-of-type(2) > div.info {
+        height: 30px;
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        margin: 10px auto; }
+        div.TwoContainer > div.Inner:nth-of-type(2) > div.info div.textCon:nth-of-type(1) > h4 {
+          color: #06c;
+          width: 180px;
+          font-family: sans-serif;
+          display: flex;
+          font-size: 18px !important;
+          font-weight: lighter;
+          transition: 200ms; }
+          div.TwoContainer > div.Inner:nth-of-type(2) > div.info div.textCon:nth-of-type(1) > h4:hover {
+            text-decoration: underline;
+            transition: 200ms; }
+        div.TwoContainer > div.Inner:nth-of-type(2) > div.info div.textCon:nth-of-type(2) > h4 {
+          color: #06c;
+          width: 70px;
+          font-family: sans-serif;
+          display: flex;
+          font-size: 18px !important;
+          font-weight: lighter;
+          transition: 200ms; }
+          div.TwoContainer > div.Inner:nth-of-type(2) > div.info div.textCon:nth-of-type(2) > h4:hover {
+            text-decoration: underline;
+            transition: 200ms; }
+  div.TwoContaineer {
+    display: flex;
+    flex-direction: row !important;
+    height: 590px !important;
+    width: 98% !important;
+    margin: 0 auto; }
+    div.TwoContaineer > div.Inner:nth-of-type(1) {
+      height: 100% !important;
+      width: 50% !important;
+      color: black;
+      font-family: sans-serif;
+      font-size: 18px !important;
+      font-weight: bolder;
+      margin-right: 1%;
+      background-size: auto !important;
+      cursor: pointer; }
+      div.TwoContaineer > div.Inner:nth-of-type(1) > div.textIn {
+        margin: 0 auto;
+        width: 40%;
+        height: 70px; }
+        div.TwoContaineer > div.Inner:nth-of-type(1) > div.textIn > h1 {
+          margin-top: 80px  !important;
+          width: 300px;
+          margin-left: 5%; }
+        div.TwoContaineer > div.Inner:nth-of-type(1) > div.textIn > img {
+          object-fit: cover;
+          margin-top: 5px;
+          margin-left: 12%;
+          color: black; }
+      div.TwoContaineer > div.Inner:nth-of-type(1) > div.info {
+        height: 30px;
+        width: 38%;
+        display: flex;
+        flex-direction: row;
+        margin: 18px auto; }
+        div.TwoContaineer > div.Inner:nth-of-type(1) > div.info div.textCon:nth-of-type(1) > h4 {
+          color: #06c;
+          width: 180px  !important;
+          font-family: sans-serif;
+          display: flex;
+          font-size: 18px  !important;
+          font-weight: lighter;
+          transition: 200ms; }
+          div.TwoContaineer > div.Inner:nth-of-type(1) > div.info div.textCon:nth-of-type(1) > h4:hover {
+            text-decoration: underline;
+            transition: 200ms; }
+        div.TwoContaineer > div.Inner:nth-of-type(1) > div.info div.textCon:nth-of-type(2) > h4 {
+          color: #06c;
+          width: 180px  !important;
+          font-family: sans-serif;
+          display: flex;
+          font-size: 18px  !important;
+          font-weight: lighter;
+          transition: 200ms;
+          cursor: pointer; }
+          div.TwoContaineer > div.Inner:nth-of-type(1) > div.info div.textCon:nth-of-type(2) > h4:hover {
+            text-decoration: underline;
+            transition: 200ms; }
+    div.TwoContaineer > div.Inner:nth-of-type(2) {
+      height: 100%  !important;
+      width: 50%  !important;
+      color: black;
+      font-family: sans-serif;
+      font-size: 16px  !important;
+      font-weight: bolder;
+      cursor: pointer;
+      background-size: auto !important; }
+      div.TwoContaineer > div.Inner:nth-of-type(2) > div.textIn {
+        margin: 0 auto;
+        width: 25%;
+        height: 70px; }
+        div.TwoContaineer > div.Inner:nth-of-type(2) > div.textIn > h1 {
+          margin-top: 80px !important;
+          width: 180px; }
+        div.TwoContaineer > div.Inner:nth-of-type(2) > div.textIn > h6 {
+          color: #ff7700;
+          font-size: 12px;
+          font-weight: bolder;
+          margin-left: 35%; }
+        div.TwoContaineer > div.Inner:nth-of-type(2) > div.textIn > h2 {
+          font-size: 19px;
+          font-weight: lighter;
+          margin-top: 5px;
+          color: black;
+          width: 200px; }
+      div.TwoContaineer > div.Inner:nth-of-type(2) > div.info {
+        height: 30px;
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        margin: 18px auto; }
+        div.TwoContaineer > div.Inner:nth-of-type(2) > div.info div.textCon:nth-of-type(1) > h4 {
+          color: #06c;
+          width: 180px;
+          font-family: sans-serif;
+          display: flex;
+          font-size: 18px !important;
+          font-weight: lighter;
+          transition: 200ms; }
+          div.TwoContaineer > div.Inner:nth-of-type(2) > div.info div.textCon:nth-of-type(1) > h4:hover {
+            text-decoration: underline;
+            transition: 200ms; }
+        div.TwoContaineer > div.Inner:nth-of-type(2) > div.info div.textCon:nth-of-type(2) > h4 {
+          color: #06c;
+          width: 80px;
+          font-family: sans-serif;
+          display: flex;
+          font-size: 18px !important;
+          font-weight: lighter;
+          transition: 200ms; }
+          div.TwoContaineer > div.Inner:nth-of-type(2) > div.info div.textCon:nth-of-type(2) > h4:hover {
+            text-decoration: underline;
+            transition: 200ms; }
+  div.carousel {
+    width: 100%;
+    height: 570px;
+    position: static; }
+    div.carousel .swiper {
+      width: 100%;
+      height: 100%;
+      position: static; }
+    div.carousel .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      position: static;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      position: static; }
+    div.carousel .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      position: static; }
+  div.footerContainer {
+    height: 704px !important;
+    width: 100%;
+    background-color: #f5f5f7;
+    margin-top: 20px; }
+    div.footerContainer > div.footer {
+      margin: 0 auto;
+      color: #6e6e73c8;
+      font-size: 8px;
+      font-family: sans-serif;
+      height: 90%;
+      font-weight: lighter;
+      padding: 20px 22px; }
+      div.footerContainer > div.footer h2:nth-of-type(2) {
+        margin-top: 10px; }
+      div.footerContainer > div.footer h2:nth-of-type(3) {
+        margin-top: 10px; }
+      div.footerContainer > div.footer h2:nth-of-type(4) {
+        margin-top: 10px; }
+      div.footerContainer > div.footer div.devide {
+        width: 100%;
+        height: 1px;
+        background-color: rgba(110, 110, 115, 0.37);
+        margin-top: 30px; }
+      div.footerContainer > div.footer div.chart {
+        width: 100%;
+        height: 500px !important;
+        display: flex;
+        flex-direction: row !important; }
+        div.footerContainer > div.footer div.chart > div.InChart {
+          height: 100% !important;
+          width: calc( 100% / 5) !important; }
+          div.footerContainer > div.footer div.chart > div.InChart > h2 {
+            color: #1d1d1fcc;
+            margin-top: 25px; }
+          div.footerContainer > div.footer div.chart > div.InChart > h3 {
+            font-size: 12px;
+            margin-top: 12px;
+            transition: 300ms;
+            display: block !important; }
+            div.footerContainer > div.footer div.chart > div.InChart > h3:hover {
+              text-decoration: underline;
+              cursor: pointer;
+              transition: 300ms; }
+          div.footerContainer > div.footer div.chart > div.InChart div.lines {
+            display: none; }
+      div.footerContainer > div.footer div.Hey {
+        width: 100%;
+        height: 1px;
+        background-color: rgba(110, 110, 115, 0.37);
+        margin: 10px 0; } }
